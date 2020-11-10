@@ -107,7 +107,7 @@ function generateRing() {
     for (let i = 0; i < density; i++) {
         
         hue = Math.abs(Math.cos(hueRadians)) * 360;
-       // wavesize = Math.abs(Math.sin(waveRadians)) * 10 + 4;
+       
         xpos = Math.cos(moveRadians) * (canvas.width / 4) + (canvas.width / 2);
         ypos = Math.sin(moveRadians) * (canvas.height / wavesize) + (canvas.height / 2);
         console.log(ypos);
